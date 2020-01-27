@@ -12,6 +12,6 @@ int main() {
     cout << "You entered " <<a <<" and it is a vowel" <<endl; //printing if the above condition is satisfied
   }
   else {
-    cout << "You entered " <<a << " and it is not a vowel" << endl; //printing this outut if the above conditon is not satisfied
+    cout << "You entered " <<a << " and it is not a vowel. It is a consonant." << endl; //printing this outut if the above conditon is not satisfied
   }
 }
