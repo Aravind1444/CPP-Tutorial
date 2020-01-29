@@ -1,0 +1,41 @@
+
+//This is a program to find whether a year (input by the user) is a leap year or not
+
+#include <iostream>
+using namespace std;
+int main() {
+ int a[3][3], trans[3][3], i, j;
+ cout <<endl << "Enter the elements of the matrix : " <<endl;
+ for (i=0; i<3; i++)
+ for (j=0; j<3; j++)
+ {
+   cout << "Enter the elements a[" <<i <<"," <<j <<"] : ";
+   cin >> a[i][j];
+ }
+ cout <<endl << "Entered matrix is : " <<endl;
+ for (i=0; i<3; i++)
+ for (j=0; j<3; j++)
+ {
+   cout << " " <<a[i][j];
+   if (j==2)
+   {
+     cout << endl <<endl;
+   }
+ }
+ for (i=0; i<3; i++)
+ for (j=0; j<3; j++)
+ {
+   trans[j][i] = a[i][j];
+ }
+ cout << endl << "Transpose of the matrix : " <<endl;
+ for (i=0; i<3; i++)
+ for (j=0; j<3; j++)
+ {
+   cout << " " << trans[i][j];
+   if (j==2)
+   {
+     cout << endl <<endl ;
+   }
+  }
+  return 0;
+}
