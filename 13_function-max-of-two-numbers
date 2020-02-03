@@ -1,0 +1,28 @@
+//This is a program showcasing the use of fuctions to find the maximum of two numbers
+
+#include <iostream>
+using namespace std;
+
+int aadd(int,int);
+int main() {
+  int num1, num2, out;
+  cout << "Enter the first number : ";
+  cin >> num1;
+  cout << "Enter the second numbers : ";
+  cin >> num2;
+  out = max(num1,num2);
+  cout << endl << "The maximum among the 2 numbers are : " << out;
+  return 0;
+}
+int max(int a, int b) 
+{
+  int max;
+  if (a>b)
+  {
+    return a;
+  }
+  else 
+  {
+    return b;
+  }
+}
