@@ -1,5 +1,5 @@
 # CPP-Tutorial
-This repo will be having the code snippets for the programs that are done as a part of coursework (OOPs). It will start off with basic concepts and then move on to higher level concepts. You can use [Repl.it](repl.it) to run the code online easily, without setting up an environment.
+This repo will be having the code snippets for the programs that are done as a part of coursework (OOPs). It will start off with basic concepts and then move on to higher level concepts. You can use [Repl.it](https://repl.it/) to run the code online easily, without setting up an environment.
 
 
 ## Topics Includes
