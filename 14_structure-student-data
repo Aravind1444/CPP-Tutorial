@@ -1,0 +1,48 @@
+//program to display data of students
+
+#include <iostream>
+#include<cmath>
+#include<string.h> 
+
+using namespace std;
+
+struct students
+{
+  char name[30];
+  char branch[30];
+  int admn_no;
+  int tmark;
+};
+int main() {
+  struct students stud1;
+  struct students stud2;
+
+  //initalizing student data1
+  strcpy(stud1.name,"Aravind");
+  strcpy(stud1.branch,"ECE");
+  stud1.admn_no=7446;
+  stud1.tmark=80;
+
+  //initalizing student data 2
+  strcpy(stud2.name,"Abhilash");
+  strcpy(stud2.branch,"ECE");
+  stud2.admn_no=7212;
+  stud2.tmark=93;
+
+  //printing the student info
+  cout <<"The name of student 1 is : " <<stud1.name <<endl;
+  cout <<"The branch of student 1 is : " <<stud1.branch << endl;
+  cout <<"The admission number of student 1 is  : " <<stud1.admn_no <<endl;
+  cout <<"The total marks of student 1 is : " <<stud1.tmark <<endl;
+
+  cout <<endl; 
+
+  cout <<"The name of student 2 is : " <<stud2.name <<endl;
+  cout <<"The branch of student 2 is : " <<stud2.branch << endl;
+  cout <<"The admission number of student 2 is  : " <<stud2.admn_no <<endl;
+  cout <<"The total marks of student 2 is : " <<stud2.tmark <<endl;
+
+  return 0;
+
+
+}
