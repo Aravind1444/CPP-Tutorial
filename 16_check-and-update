@@ -1,0 +1,26 @@
+//program to show the number of vowels. Also, if a character is vowel, change it to # or if it is a consonant, change it to $
+#include <iostream>
+using namespace std;
+
+int main() {
+int count=0,i,l;
+string t;
+cout << "Enter the text : ";
+cin >>t;
+l = t.length();
+for (i=0;i<=l;i++)
+{
+  if (t[i]=='a' || t[i]=='A' || t[i]=='e' || t[i]=='E' || t[i]=='i' || t[i]=='I' || t[i]=='o' || t[i]=='O' || t[i]=='u' || t[i]=='U')
+  {
+    count = count+1;
+    t[i]='#';
+  }
+  else
+  {
+    t[i]='$';
+  }
+}
+cout<<endl;
+cout <<"The updated word is : "<< t <<endl <<"The number of vowels is : "<< count <<endl;
+return 0;
+}
