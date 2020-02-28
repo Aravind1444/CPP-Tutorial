@@ -1,0 +1,21 @@
+//pointers
+
+#include <iostream>
+using namespace std;
+
+int main() {
+   int a[10],*ptr,i,N;
+   cout<<"Enter the number of elements in the integer array :  "<<endl;
+   cin>>N;
+   cout<<"Enter an integer array having "<<N<<" elements : "<<endl;
+   for(i=0;i<N;i++)
+   {
+     cin>>a[i];
+   }
+   ptr =a;
+   for(i=0;i<N;i++)
+   {
+     cout<<"Value at "<<i<<" = "<<*ptr<<endl;
+     ptr++;
+   }
+}
