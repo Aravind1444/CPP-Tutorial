@@ -59,4 +59,4 @@ int main() {
   
 }
 
-try the code at : https://repl.it/@Aravind1444/inheritancestudentdataincpp
+//try the code at : https://repl.it/@Aravind1444/inheritancestudentdataincpp
