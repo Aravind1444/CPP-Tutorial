@@ -7,11 +7,11 @@ class A
     int a;
     A()
     {
-      cout << "A - Activated" << endl;
+      cout << "A is Activated" << endl;
     }
     ~A()
     {
-      cout << "A - Devactivated" << endl;
+      cout << "A is Devactivated" << endl;
     }
 };
 
@@ -21,11 +21,11 @@ class B: public A
     int b;
     B()
     {
-      cout << "B - Activated" << endl;
+      cout << "B is Activated" << endl;
     }
   ~B()
   {
-    cout << "B - Devactivated" << endl;
+    cout << "B is Devactivated" << endl;
   }
 };
 
